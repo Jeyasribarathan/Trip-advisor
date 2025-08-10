@@ -344,3 +344,33 @@ img:hover{
 .footer__one p{
     margin: 20px;
 }
+@media screen and (max-width:800px) {
+    body {
+        font-size: 10px;
+    }
+
+}
+@media screen and (max-width:600px) {
+    .course-card ,.rating-container__card {
+        flex-basis: 50%;
+    }
+
+    
+    .navbar__s3 {
+        display: none;}
+        .navbar__s2{
+            display: flex;
+        }
+
+    }
+
+    .course-card p {
+        text-align: center;
+        font-size: 10px;
+    }
+        .rating-container__card h1{
+            display: none;
+        }
+    .search__bar{
+        display: none;
+    }
